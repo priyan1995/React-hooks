@@ -1,6 +1,7 @@
 import './App.css';
 import ClassCounter from './components/ClassCounter';
 import { HookCounter } from './components/HookCount';
+import HookCounterFour from './components/HookCounterFour';
 import { HookCounterTwo } from './components/HookCounterTwo';
 import { InputNameChange } from './components/InputNameChange';
 
@@ -11,6 +12,7 @@ function App() {
       <HookCounter />
       <HookCounterTwo />
       <InputNameChange />
+      <HookCounterFour />
     </div>
   );
 }
